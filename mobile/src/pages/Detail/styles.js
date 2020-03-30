@@ -54,7 +54,7 @@ export default StyleSheet.create({
              marginTop: 16
         },
 
-        action: {
+        actions: {
             marginTop: 16,
             flexDirection: 'row',
             justifyContent: 'space-between'

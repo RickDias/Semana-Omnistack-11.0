@@ -13,7 +13,7 @@ export default function Incidents(){
     const [page, setPage] = useState(1);
     const [loading, setLoading] =useState(false);
 
-    function navigateToDetail(){
+    function navigateToDetail(incident){
         navigation.navigate('Detail', { incident });
     }
 
